@@ -1,0 +1,155 @@
+
+/********************BENES*******************/
+body{
+  /*background-color: #EAF6F6;*/
+  margin: 0;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 10px;
+  width: 5%;
+
+}
+
+a{
+  color: #b2fcff;
+}
+
+p{
+  color: #40514E;
+}
+
+/*width of the box, padding, border, margin*/
+/*******************Class styles*******************/
+
+
+.top-container{
+  /*background-color: #5edfff;*/
+  background-color: #EAF6F6;
+  position: relative;
+  /*padding-top: 100px;*/
+  height: 600px;
+  margin-top: 0;
+
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.top-text{
+  position: relative;
+  margin-bottom: 0;
+
+}
+
+.top-cloud{
+position: absolute;
+right: 550px;
+
+
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 550px;
+  bottom: 350px;
+
+}
+
+.mountain{
+  position: relative;
+  bottom: auto;
+
+}
+
+.profile{
+
+}
+
+.skill-row{
+  width: 35%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+
+
+}
+
+.html-logo{
+  width: 20%;
+  margin-right: 30px;
+}
+
+.xbox{
+  width: 20%;
+  margin-left: 30px;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  height: 200px;
+  position: relative;
+}
+
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:6px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+  margin-bottom: 32px;
+  margin-top: 16px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link{
+  color: #11999E;
+
+}
+
+.copright{
+  color: #EAF6F6;
+  bottom: 20px;
+}
